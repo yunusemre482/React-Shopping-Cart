@@ -4,7 +4,9 @@ import Product from './Product';
 
 const Container = styled.div`
   padding: 20px;
+  margin:5px;
   display: flex;
+  flex-direction: row-reverse;
   flex-wrap: wrap;
   justify-content: space-between;
 `;
