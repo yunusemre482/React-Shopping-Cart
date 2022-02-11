@@ -31,10 +31,11 @@ const Center = styled.div`
   width: 100%;
 `;
 const RightSide = styled.div`
+  margin-top: 30px;
   flex: 1;
   display: flex;
+  flex-direction: column;
   width: 100%;
-  justify-content: center;
 `;
 const Logo = styled.h1`
   font-size: 32;
@@ -70,6 +71,19 @@ const List = styled.ul`
 const ListItem = styled.li`
   width: 50%;
   margin-bottom: 10px;
+`;
+
+const ContactContainer = styled.div`
+  flex-direction: column;
+`;
+const ContactItem = styled.div`
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  width: 100%;
+`;
+const Payment = styled.img`
+    width: 50%;
 `;
 
 const Footer = () => {
@@ -115,7 +129,23 @@ const Footer = () => {
           <ListItem>Terms</ListItem>
         </List>
       </Center>
-      <RightSide>Akgün</RightSide>
+      <RightSide>
+        <Title>Contact</Title>
+        <ContactContainer>
+          <ContactItem>
+            <Room style={{marginRight: '10px'}} /> 622 Dixie Path , South
+            Tobinchester 98336
+          </ContactItem>
+          <ContactItem>
+            <Phone style={{marginRight: '10px'}} /> +90 553 379 91 99
+          </ContactItem>
+          <ContactItem>
+            <MailOutline style={{marginRight: '10px'}} />
+            akgunyunus482@gmail.com
+          </ContactItem>
+        </ContactContainer>
+        <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
+      </RightSide>
     </Container>
   );
 };

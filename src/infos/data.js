@@ -67,10 +67,10 @@ export const sliderItems = [
     },
     {
       id:7,
-      img:"https://purepng.com/public/uploads/large/purepng.com-women-dressclothingwomen-dressfashion-women-dress-cloth-apparel-631522326949yy7yw.png",
+      img:"https://pngimg.com/uploads/dress/dress_PNG52.png",
     },
     {
       id:8,
-      img:"https://purepng.com/public/uploads/large/purepng.com-women-dressclothingwomen-dressfashion-women-dress-cloth-apparel-631522326949yy7yw.png",
+      img:"https://pngimg.com/uploads/dress/dress_PNG52.png",
     },
   ]

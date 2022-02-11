@@ -3,7 +3,7 @@ import * as actions from '../actionTypes/authActionTypes';
 export const signUp = (user) => {
   return (dispatch) => {
       console.log(user);
-    dispatch({type: actions.SIGN_UP_ERROR, payload: error});
+    dispatch({type: actions.SIGN_UP_ERROR, payload: "error"});
   };
 };
 
